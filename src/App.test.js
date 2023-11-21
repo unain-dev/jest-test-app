@@ -10,6 +10,6 @@ test("render test", () => {
 
 test("render test2", () => {
   render(<App />);
-  const el = screen.getByText(/Hello/);
+  const el = screen.getByText(/hello/);
   expect(el).toBeInTheDocument();
 });
